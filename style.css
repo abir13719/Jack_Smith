@@ -17,7 +17,7 @@
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     gap: 15px;
-    background-image: url(/images/header-bg.png);
+    background-image: url(images/header-bg.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -82,7 +82,7 @@
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     gap: 15px;
-    background-image: url(/images/biography-bg.png);
+    background-image: url(images/biography-bg.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -118,7 +118,7 @@
     grid-template-columns: repeat(12, 1fr);
     gap: 15px;
     padding-bottom: 4%;
-    background-image: url(/images/latest-work-bg.png);
+    background-image: url(images/latest-work-bg.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -173,7 +173,7 @@
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     gap: 15px;
-    background-image: url(/images/footer-bg.png);
+    background-image: url(images/footer-bg.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
