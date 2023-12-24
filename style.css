@@ -7,21 +7,18 @@
 }
 .container{
     width: 100%;
-    height: 100vh;
+    min-height: 100vh;
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     grid-column-gap: 15px;
+    
 }
 .intro{
     grid-column: 1/ -1;
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     grid-column-gap: 15px;
-    background-image: url(images/bg_1.webp);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: scroll;
-    background-size: cover;
+    background-image: linear-gradient(#1f685f, #0f343c);
 }
 .intro_text{
     color: white;
@@ -50,7 +47,7 @@
     display: inline-block;
     text-decoration: none;
     background-image: linear-gradient(90deg, aquamarine, lightgreen);
-    color: gray;
+    color: black;
     font-size: 16px;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -84,11 +81,7 @@
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     grid-column-gap: 15px;
-    background-image: url(images/bg_2.webp);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    background-attachment:scroll;
+    background-image: linear-gradient(360deg, #1f685f, #0f343c);
 }
 .achive_img{
     grid-column: 2/ 7;
@@ -124,11 +117,7 @@
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     gap: 15px;
-    background-image: url(images/bg_1.webp);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    background-attachment: scroll;
+    background-image: linear-gradient(#1f685f, #0f343c);
 }
 .title_h1{
     color: aquamarine;
@@ -177,11 +166,7 @@
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     gap: 15px;
-    background-image: url(images/bg_2.webp);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    background-attachment: scroll;
+    background-image: linear-gradient(360deg, #1f685f, #0f343c);
 }
 .client{
     grid-column: 1/-1;
